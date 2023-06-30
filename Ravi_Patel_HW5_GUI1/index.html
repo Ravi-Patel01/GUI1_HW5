@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="js/myscripts.js"></script>
+</head>
+<body>
+    <!--game board-->
+    <div id="board_wrapper">
+        <div id="slot_1" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_2" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_3" class="double_word_slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_4" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_5" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_6" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_7" class="double_letter_slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_8" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_9" class="double_letter_slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_10" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_11" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_12" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_13" class="double_word_slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_14" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="slot_15" class="slot" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <!--rack wrapper for tiles pieces to be placed-->
+    <div id="rack_wrapper">
+    </div>
+    <button onclick="resetGame()">Reset Game</button>
+    <button onclick="check_score()">Check Score</button>
+    <p id="output"></p>
+</body>
+</html>

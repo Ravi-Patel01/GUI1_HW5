@@ -1,0 +1,16 @@
+ravi_patel1@student.uml.edu
+
+Ravi Patel HW5 write up
+This program is an in progress implementation of a single-line scrabble game.
+I was able to achieve most of the visual implementation save for the validation
+of the stacking of the tiles in the slots. I also was able to properly select the
+initial tiles based on their proper weights as seen in the getRandomPiece function.
+The tiles are able to be dragged and dropped onto target slots. My board also includes bonus squares,
+though because there is no point scoring there is no way to calculate their value.
+Tiles can also only be dragged onto a slot from the rack, and cannot be moved somewhere else off the page.
+I kept the functionality of allowing pieces to be dragged between slots because it allowed the user
+to change their entry if needed and figured it was not efficient to keep the slots locked.
+Finally, there is always a reset button to clear the board and effectively reset the game.
+Based on all of this criteria, despite the failure to fully implement the program, I believe
+I was able to achieve half of the points given in this assignment (24) (including the writeup)
+I appreciate any consideration you can give me, thanks for being a great TA!

@@ -1,0 +1,38 @@
+.slot {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: inline-block;
+    background-image: url("../scrabble/Scrabble_Board_Blank.jpg");
+}
+.double_letter_slot {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: inline-block;
+    background-size: cover;
+    background-image: url("../scrabble/Scrabble_Board_Double_Letter.jpg");
+}
+.double_word_slot {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: inline-block;
+    background-size: cover;
+    background-image: url("../scrabble/Scrabble_Board_Double_Word.png");
+}
+.tile {
+    background-size: cover;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    margin: 5px;
+}
+#board_wrapper {
+    min-width: 1000px;
+}
+#rack_wrapper {
+    min-width: 300px;
+}
